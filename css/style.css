@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff6e0;
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 165, 0); /* Основний оранжевий фон */
+  color: white;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 900; /* Насиченість шрифту (вага шрифту) */
+  color: white;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(186, 137, 128); /* Фон заголовку блоку */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.section-header .icon {
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.first-level {
+  background-color: rgb(103, 158, 128); /* Колір фону списку 1-го рівня */
+  padding-right: 20px;
+  padding-left: 50px; /* Внутрішній відступ списку 1-го рівня */
+}
+
+ul.second-level {
+  background-color: rgb(153, 180, 102); /* Колір фону списку 2-го рівня */
+  margin-bottom: 10px; /* Зовнішній відступ для елементів списку 2-го рівня */
+  padding-left: 40px; /* Внутрішній відступ для елементів списку 2-го рівня */
+  font-style: italic; /* Курсив для тексту */
+  font-size: 18px; /* Розмір тексту для списку 2-го рівня */
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: rgb(200, 105, 60); /* Фон елементів списку */
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  list-style-position: inside; /* Розташування маркера всередині списку */
+}
+
+li .icon {
+  margin-right: 10px;
+}
+
+/* Властивості для використання зображення як маркера */
+li {
+  background-image: url("https://ru.pinterest.com/pin/897623769474685002/");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+span.first-level {
+  font-size: 20px; /* Розмір тексту для span у списку 1-го рівня */
+  font-weight: 700; /* Насиченість шрифту (вага шрифту) для span у списку 1-го рівня */
+  background-color: rgb(199, 124, 106); /* Колір фону для span у списку 1-го рівня */
+  margin-bottom: 10px; /* Зовнішній відступ */
+  padding: 10px 20px; /* Внутрішній відступ для span */
+  display: inline-block; /* Рядково-блочний тип блоку */
+}
+
+span.second-level {
+  background-color: rgb(218, 106, 32); /* Колір фону для span у списку 2-го рівня */
+  padding: 10px 20px; /* Внутрішній відступ для span */
+  display: inline-block; /* Рядково-блочний тип блоку */
+}
